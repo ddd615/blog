@@ -65,6 +65,12 @@
     height: 160px;
     background-color: rgba(236,233,236,0.3);
     margin: 20px 0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -webkit-box-shadow: 10px 10px 20px #000;
+    -moz-box-shadow: 10px 10px 20px #000;
+    box-shadow: 10px 10px 20px #000;
   }
 .blogs li{
 

@@ -4,6 +4,7 @@
       <router-link to="/"><el-button round class="btn">首页</el-button></router-link>
       <router-link to="/show" class="font"><el-button round class="btn">博客</el-button></router-link>
       <router-link to="/addBlog" class="font"><el-button round class="btn">写博客</el-button></router-link>
+      <router-link to="/message" class="font"><el-button round class="btn">留言板</el-button></router-link>
     </div>
     <div class="logo">
 

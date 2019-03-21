@@ -8,7 +8,7 @@
         </el-carousel>
       </div>
       <div class="tuijian">
-
+        
       </div>
     </div>
 </template>

@@ -1,7 +1,7 @@
 <template>
     <div id="single">
      <h1 style="text-align: center">{{blog.theme}}</h1>
-      <article>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{blog.content}}</article>
+      <pre>{{blog.content}}</pre>
       <p>作者：{{blog.author}}</p>
       <p>分类:</p>
       <ul>
@@ -35,7 +35,7 @@
               type: 'success',
               message: '删除成功!'
             })
-            this.$router.push({path:'/'})
+            this.$router.push({path:'/show'})
           });
         }).catch(() => {
           this.$message({

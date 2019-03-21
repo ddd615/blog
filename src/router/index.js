@@ -5,6 +5,8 @@ import showBlog from  '../components/showBlog'
 import singleBlog from '../components/singleBlog'
 import editBlog from '../components/editBlog'
 import index from  '../components/index'
+import Message from '../components/Message'
+
 
 
 Vue.use(Router)
@@ -35,6 +37,11 @@ export default new Router({
       path:'/',
       name:'index',
       component:index
+    },
+    {
+      path:'/message',
+      name:'Message',
+      component:Message
     }
   ]
 })
